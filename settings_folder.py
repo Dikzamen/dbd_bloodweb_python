@@ -1,0 +1,1 @@
+settings_folder = 'settings/'
