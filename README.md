@@ -12,7 +12,7 @@ How to use program:
 3) Install requirements by running "pip install -r requirements.txt" in folder with source code.
   If you get error message, try "pip install wheel" and "pip install -r requirements.txt" again.
 4) Run calibration.py script and switch window to DbD with opened bloodweb.
-
+  Prefferably use bloodweb with no leveled up nodes of all colors. If program doesn't click inside circles, calibrate again.
   Original screenshot:
   ![Original](https://user-images.githubusercontent.com/35243176/134715338-8e9c87c7-454f-42dd-b52f-e8d82f3134a2.jpg)
   1. Crop your screen to get area with bloodweb inside. After you get desired image, click on image window and press ESC.
@@ -29,4 +29,5 @@ How to use program:
 
  Run main.py when you want to spend bloodpoints. When you want to stop, hold your mouse in top left corner for several seconds or Alt-Tab and stop execution.
 
-
+ Known issues:
+    1) Some Nemesis addons have very much white pixels inside circle so there are issues with determination of their quality.
